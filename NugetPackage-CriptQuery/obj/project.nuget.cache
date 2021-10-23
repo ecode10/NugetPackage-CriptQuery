@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uRU2Rae4pHGYTazdU63RKZCG6k8NWB5p/mXHxCv6/ZGpQ7uESe16QA425XNBCdqlVbBrD4OJkSzvdCZ8oO13sg==",
+  "success": true,
+  "projectFilePath": "/Users/mauriciojunior/Projects/NugetPackage-CriptQuery/NugetPackage-CriptQuery/NugetPackage-CriptQuery.csproj",
+  "expectedPackageFiles": [
+    "/Users/mauriciojunior/.nuget/packages/criptquery/1.0.1/criptquery.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

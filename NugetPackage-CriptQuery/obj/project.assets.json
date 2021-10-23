@@ -1,0 +1,100 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "CriptQuery/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.0/CriptQuery.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/CriptQuery.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CriptQuery/1.0.1": {
+      "sha512": "zlMZ07I5M9r4XGW5jKC3LQzdADi6h9oIS/9EZBIEyWi9cbHmAeKEkMt7ooRNKmJhU2guPbJqiiUcfonhri7HFw==",
+      "type": "package",
+      "path": "criptquery/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "criptquery.1.0.1.nupkg.sha512",
+        "criptquery.nuspec",
+        "lib/netcoreapp2.0/CriptQuery.dll",
+        "url-icon-1-transparent.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "CriptQuery >= 1.0.1"
+    ]
+  },
+  "packageFolders": {
+    "/Users/mauriciojunior/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/mauriciojunior/Projects/NugetPackage-CriptQuery/NugetPackage-CriptQuery/NugetPackage-CriptQuery.csproj",
+      "projectName": "NugetPackage-CriptQuery",
+      "projectPath": "/Users/mauriciojunior/Projects/NugetPackage-CriptQuery/NugetPackage-CriptQuery/NugetPackage-CriptQuery.csproj",
+      "packagesPath": "/Users/mauriciojunior/.nuget/packages/",
+      "outputPath": "/Users/mauriciojunior/Projects/NugetPackage-CriptQuery/NugetPackage-CriptQuery/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/mauriciojunior/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "CriptQuery": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
